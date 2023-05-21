@@ -145,7 +145,7 @@ body {
   text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+  transition: color var(--anim-style);
 }
 
 .contact:hover {
@@ -190,7 +190,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   cursor: pointer;
-  transition: background var(--anim-style);
+  transition: background-color var(--anim-style);
 }
 
 .order-button:hover,
@@ -446,6 +446,8 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
+  transition: color var(--anim-style), background-color var(--anim-style),
+    border-color var(--anim-style), box-shadow var(--anim-style);
 }
 
 .filter-button:hover,
@@ -456,7 +458,6 @@ body {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: box-shadow var(--anim-style);
 }
 
 /* Examples portfolio */
@@ -496,6 +497,7 @@ body {
 .link-project {
   text-decoration: none;
   display: block;
+  transition: box-shadow var(--anim-style);
 }
 .link-project:hover,
 .link-project:focus {
@@ -638,6 +640,8 @@ body {
   padding: 40px 32px;
   transform: translateY(100%);
   transition: transform var(--anim-style);
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
 }
 
 .link-project:hover .overlay-text,
