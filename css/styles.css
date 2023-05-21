@@ -52,6 +52,20 @@ body {
   background-color: var(--color-white);
   color: var(--color-slate);
 }
+.active {
+  color: var(--color-ocean);
+}
+.active::after {
+  content: '';
+  background-color: var(--color-ocean);
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  color: var(--color-ocean);
+}
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -398,6 +412,7 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--color-green);
+  transition: background-color var(--anim-style);
 }
 .footer-text {
   font-size: 16px;
@@ -448,6 +463,7 @@ body {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: box-shadow var(--anim-style);
 }
 
 /* Examples portfolio */
@@ -492,6 +508,7 @@ body {
 .link-project:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow var(--anim-style);
 }
 /* customers */
 
@@ -535,6 +552,7 @@ body {
 .cust-link:focus {
   border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
+  transition: box-shadow var(--anim-style);
 }
 .cust-logo {
   fill: currentColor;
@@ -587,6 +605,7 @@ body {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-white);
+  transition: box-shadow var(--anim-style);
 }
 
 .modal-close-icon {
