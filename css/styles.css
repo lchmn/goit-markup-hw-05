@@ -119,11 +119,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--color-navy-blue); */
+  color: var(--color-navy-blue);
   padding: 24px 0;
   display: block;
   position: relative;
-  color: var(--color-iris);
+  /* color: var(--color-iris); */
   transition: color var(--anim-style);
 }
 .link {
@@ -641,7 +641,7 @@ body {
   transform: translateY(100%);
   transition: transform var(--anim-style);
   line-height: 1.5;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
 }
 
 .link-project:hover .overlay-text,
