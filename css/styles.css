@@ -123,7 +123,6 @@ body {
   padding: 24px 0;
   display: block;
   position: relative;
-  /* color: var(--color-iris); */
   transition: color var(--anim-style);
 }
 .link {
@@ -320,6 +319,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   text-align: center;
+  margin-bottom: 8px;
 }
 .socials {
   display: flex;
@@ -405,7 +405,6 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--color-green);
-  transition: background-color var(--anim-style);
 }
 .footer-text {
   font-size: 16px;
@@ -453,7 +452,6 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background: var(--color-ocean);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--color-white);
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -548,7 +546,6 @@ body {
 .cust-link:focus {
   border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
-  transition: box-shadow var(--anim-style);
 }
 .cust-logo {
   fill: currentColor;
@@ -599,9 +596,7 @@ body {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--color-ocean);
-  border: none;
   fill: var(--color-white);
-  transition: box-shadow var(--anim-style);
 }
 
 .modal-close-icon {
